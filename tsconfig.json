@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "rootDir": "src/",
+    "outDir": "dist/",
+    "lib": [
+      "es6"
+    ],
+    "removeComments": true,
+    "allowJs": true
+  }
+}
