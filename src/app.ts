@@ -8,6 +8,7 @@ import * as stylus from 'stylus'
 
 import index from './routes/index'
 import users from './routes/users'
+import AppError from './app-error';
 
 let app = express()
 
@@ -29,7 +30,7 @@ app.use('/users', users)
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
-  let err = new Error('Not Found')
+  let err = new AppError('Not Found')
   err.status = 404
   next(err)
 });

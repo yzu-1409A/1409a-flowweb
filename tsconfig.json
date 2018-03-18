@@ -3,7 +3,8 @@
     "rootDir": "src/",
     "outDir": "dist/",
     "lib": [
-      "es6"
+      "es6",
+      "dom"
     ],
     "removeComments": true,
     "allowJs": true
