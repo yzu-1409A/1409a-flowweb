@@ -5,10 +5,10 @@
  */
 
 import app from './app'
-import * as debug_ from 'debug'
+import * as _debug from 'debug'
 import * as http from 'http'
 
-let debug = debug_('gitfference:server')
+let debug = _debug('network-flow:server')
 
 /**
  * Get port from environment and store in Express.
